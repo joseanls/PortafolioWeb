@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafolio - Jose Antonio Laura Salvatierra</title>
+
+  <!-- Fuente Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+
+  <!-- Estilos CSS -->
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+
+<body>
+  <!-- Encabezado -->
+  <header>
+    <nav>
+      <h1>Jose Antonio</h1>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Inicio -->
+  <section id="inicio" class="hero">
+    <h2>¡Hola! Soy Jose Antonio</h2>
+    <p>Estudiante de Ingeniería de Sistemas e Informática en la Universidad Continental.</p>
+  </section>
+
+  <!-- Sobre mí -->
+  <section id="sobre-mi" class="mostrar">
+    <h2>Sobre mí</h2>
+    <div class="perfil">
+      <img src="img/perfil.jpg" alt="Foto de Jose Antonio" class="foto-perfil" />
+      <div class="descripcion">
+        <p>Mi nombre es <strong>Jose Antonio Laura Salvatierra</strong>, estudiante de la carrera de Ingeniería de
+          Sistemas e Informática en la Universidad Continental.</p>
+        <p>Actualmente curso asignaturas entre 3er y 5to ciclo debido a un proceso de convalidación. Me interesa el
+          desarrollo web, la programación y la optimización de sistemas.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Proyectos -->
+  <section id="proyectos">
+    <h2>Proyectos</h2>
+    <div class="proyecto">
+      <h3>Proyecto 1</h3>
+      <p><em>En proceso...</em></p>
+    </div>
+    <div class="proyecto">
+      <h3>Proyecto 2</h3>
+      <p><em>En proceso...</em></p>
+    </div>
+  </section>
+
+  <!-- Habilidades -->
+  <section id="habilidades">
+    <h2>Habilidades</h2>
+    <ul class="habilidades">
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>JavaScript</li>
+      <li>Git y GitHub</li>
+      <li>Bases de datos</li>
+    </ul>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <form id="formulario-contacto">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required />
+
+      <label for="correo">Correo electrónico:</label>
+      <input type="email" id="correo" name="correo" required />
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Jose Antonio Laura Salvatierra. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+
+</html>
